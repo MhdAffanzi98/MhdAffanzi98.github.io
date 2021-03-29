@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+li{
+	list-style: none;
+}
+header{
+	background-color:  #b2b266;
+	position: fixed;
+    top: 0;
+    z-index: 10;
+	width: 100%;
+	height: 90px;
+
+}
+.container{
+  max-width: 1170px;
+  width:100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kiri{
+	float:left;
+	margin: 10px 40px;
+	font-size: 35px;
+}
+.kanan{
+	float: right;
+	margin: 25px 50px;
+}
+.kanan ul{
+	display: flex;
+	font-size: 30px;
+}
+.kanan li{
+	padding-left: 40px;
+}
+.top-wrapper{
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-color: #bf8040;
+ }
+ .heading{
+ 	text-align: center;
+ 	margin-top: 20px;
+ }
+ .heading h1{
+ 	font-size: 50px;
+ }
+ .contents{
+ 	margin-top: 40px;
+ 	width:100%;
+ 	
+ }
+ .content{
+ 	padding: 20px;
+ 	margin-bottom: 20px;
+
+ }
+ .satu{
+ 	background-color: #80ffe5;
+ }
+ .dua{
+ 	background-color: #ff66ff;
+ }
+ .tiga{
+ 	background-color: #66b3ff;
+ }
+ .kelompok{
+ 	width: 100%;
+ 	margin:50px auto;
+ 	
+
+ }
+ .profile{
+ 	height: 100px;
+ 	margin: 30px 40px;
+ 	text-align: center;
+ }
+ .profile a{
+ 	font-size: 10px;
+ 	height: 15px;
+ }
+ .btn{
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  height: 20px;
+ }
+ .instagram{
+  text-align: center;
+  padding-top: 4px;
+  background-color: #55acee;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  border-radius: 10px;
+ }
+ .instagram:active{
+  position: relative;
+  box-shadow: none;
+  top: 7px;
+}
+footer{
+	background-color: blue;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+ @media (min-width: 600px){
+
+ .contents{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .content{
+ 	width: 30%;
+ }
+ .kelompok{
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ }
+.profile{
+	width: 30%;
+}
+ 
+
+ }
